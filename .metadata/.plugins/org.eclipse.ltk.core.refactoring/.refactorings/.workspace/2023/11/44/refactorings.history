@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;SpringDemo3_Collection_LIst&apos; to &apos;SpringDemo3_Collection_List&apos;&#x0D;&#x0A;- Original element: &apos;SpringDemo3_Collection_LIst&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringDemo3_Collection_LIst&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;SpringDemo3_Collection_LIst&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=SpringDemo3_Collection_LIst" name="SpringDemo3_Collection_List" references="true" stamp="1699010761991" version="1.0"/>
+</session>

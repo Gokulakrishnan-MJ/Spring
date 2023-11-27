@@ -1,0 +1,5 @@
+package com.jsp.JavaBasedConfiguration.dto;
+
+public class Employee {
+
+}

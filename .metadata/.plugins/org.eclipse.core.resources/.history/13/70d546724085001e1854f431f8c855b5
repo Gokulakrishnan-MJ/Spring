@@ -1,0 +1,13 @@
+package com.jsp.SpringAnnotationBasedConfiguration.dto;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Student {
+	
+	private int studentId;
+	private String studentName;
+	
+	@Autowired
+	private Course course;
+
+}

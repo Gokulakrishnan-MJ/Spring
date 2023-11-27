@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="student1" class="com.jsp.SpringDemo3_Collection_LIst.POJO.Student" primary="true">
+		<!--<constructor-arg name="studentId" value="002" />
+		<constructor-arg name="studentName" value="Suren" />
+		<constructor-arg name="Department" value="8610794562" />
+		<constructor-arg name="Address" value="suren7219@gmail.com" />
+		<constructor-arg name="listofSubjects">
+			<list>
+				<value>Java</value>
+				<value>Sql</value>
+
+			</list>
+		</constructor-arg>
+		-->
+		
+		<property name="studentId" value="002" />
+		<property name="studentName" value="Suren" />
+		<property name="Department" value="IT" />
+		<property name="Address" value="Velachery" />
+		<property name="listofSubjects">
+			<list>
+				<value>Java</value>
+				<value>Sql</value>
+
+			</list>
+		</property>
+		<property name="marks"><set>
+			<value>99-maths</value><value>98-physics</value><value>100-chemistry</value>
+		</set></property>
+	</bean>
+	
+
+
+</beans>  

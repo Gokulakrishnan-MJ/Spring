@@ -1,0 +1,5 @@
+package com.jsp.SpringAnnotationBasedConfiguration.dto;
+
+public class StringEven {
+
+}

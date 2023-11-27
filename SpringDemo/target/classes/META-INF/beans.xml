@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<!--  <bean id="employee1" class="com.jsp.SpringDemo2.beans.Employee">ert	<property name="employeeId" value="001" />
+		<property name="employeeName" value="Gokul" />
+		<property name="employeePhone" value="8072769573" />
+		<property name="employeeEmail" value="gokulakrishnan.m3009@gmail.com" />
+		<property name="employeeAddress" value="Chennai" />
+	</bean>
+	<bean id="employee2" class="com.jsp.SpringDemo2.beans.Employee"
+		primary="true">
+		<property name="employeeId" value="002" />
+		<property name="employeeName" value="Suren" />
+		<property name="employeePhone" value="8610794562" />
+		<property name="employeeEmail" value="suren7219@gmail.com" />
+		<property name="employeeAddress" value="Velachery" />
+	</bean> -->
+	<bean id="employee3" class="com.jsp.SpringDemo2.beans.Employee"
+		primary="true">
+		<constructor-arg name="employeeId" value="002" />
+		<constructor-arg name="employeeName" value="Suren" />
+		<constructor-arg name="employeePhone" value="8610794562" />
+		<constructor-arg name="employeeEmail" value="suren7219@gmail.com" />
+		<constructor-arg name="employeeAddress" value="Velachery" />
+	</bean>
+
+
+</beans>  

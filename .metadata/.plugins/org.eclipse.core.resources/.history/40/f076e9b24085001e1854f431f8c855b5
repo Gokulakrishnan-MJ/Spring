@@ -1,0 +1,12 @@
+package com.jsp.SpringAnnotationBasedConfiguration.dto;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Course {
+	private int courseId;
+	private String courseName;
+	private String trainerName;
+	
+
+}

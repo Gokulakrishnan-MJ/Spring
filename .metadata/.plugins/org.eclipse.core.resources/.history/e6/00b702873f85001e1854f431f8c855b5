@@ -1,0 +1,8 @@
+package com.jsp.SpringAnnotationBasedConfiguration.dto;
+
+public class Student {
+	
+	private int studentId;
+	private String studentName;
+
+}

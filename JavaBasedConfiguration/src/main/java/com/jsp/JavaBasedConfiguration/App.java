@@ -1,0 +1,23 @@
+package com.jsp.JavaBasedConfiguration;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.jsp.JavaBasedConfiguration.configuration.EmployeeConfig;
+import com.jsp.JavaBasedConfiguration.dto.Employee;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        ApplicationContext ct=new AnnotationConfigApplicationContext(EmployeeConfig.class);
+        Employee emp=ct.getBean(Employee.class);
+        System.out.println(emp);
+        
+    }
+}

@@ -1,0 +1,27 @@
+package com.jsp.JavaBasedConfiguration.configuration;
+
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
+
+import com.jsp.JavaBasedConfiguration.dto.Employee;
+
+@ComponentScan(basePackages = "com.jsp.JavaBasedConfiguration")
+@Configuration
+public class EmployeeConfig {
+
+	@Scope(scopeName = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+	@Bean
+	public Employee getEmployee()
+	{
+		Employee e=new Employee();
+		e.setEmployeeId(101);
+		e.setEmployeeName("Gokul");
+		e.setEmployeeDesignation("HR");
+		return e;
+		
+	}
+	
+}

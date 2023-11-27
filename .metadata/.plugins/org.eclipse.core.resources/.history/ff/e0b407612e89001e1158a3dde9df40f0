@@ -1,0 +1,7 @@
+package com.jsp.JavaBasedConfiguration.dto;
+
+public class Department {
+	private int deptId;
+	private String deptName;
+
+}
